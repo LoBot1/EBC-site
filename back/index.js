@@ -598,7 +598,7 @@ app.post("/news/delete", jsonParser, (req, res) => {
 
 const storageFile = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, "../front/myapp/src/image/pictures")
+    cb(null, `${process.cwd()}/assets`)
   },
   filename: (req, file, cb) => {  
     cb(null, file.fieldname + '_' + Date.now() + path.extname(file.originalname));
@@ -621,9 +621,15 @@ app.post("/upload/image/:id/:table/:param", (uploadImageFile.single("images")), 
     });
 });
 
+app.get("/image/:name",  (req, res) => {
+    res.sendFile(`${process.cwd()}/assets/${req.params.name}`);
+});
+
 app.post("/delete/file/:file", jsonParser,   (req, res) => {
   const fileToDelete = req.params.file
-  fs.unlinkSync("../front/myapp/src/image/pictures/" + fileToDelete)
+  fs.unlinkSync(`${process.cwd()}/assets/${fileToDelete}`)
   res.send('file removed');
 });
+
+console.log(process.cwd())
 
