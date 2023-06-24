@@ -1,6 +1,6 @@
 export const BagInsert_ = async (bag) => {
     const response = await fetch(
-        'http://localhost:4444/bag/insert', {
+        'https://api.elitebasketcamp.fr/bag/insert', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -15,7 +15,7 @@ export const BagInsert_ = async (bag) => {
 
 export const BagDelete_ = async (bag) => {
     const response = await fetch(
-        'http://localhost:4444/bag/delete', {
+        'https://api.elitebasketcamp.fr/bag/delete', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -30,7 +30,7 @@ export const BagDelete_ = async (bag) => {
 
 export const BagUpdate_ = async (bag) => {
     const response = await fetch(
-        'http://localhost:4444/bag/update', {
+        'https://api.elitebasketcamp.fr/bag/update', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -45,7 +45,7 @@ export const BagUpdate_ = async (bag) => {
 
 export const BagList_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/bag/list', {
+        'https://api.elitebasketcamp.fr/bag/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -59,7 +59,7 @@ export const BagList_ = async () => {
 
 export const BagInform_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/bag/info', {
+        'https://api.elitebasketcamp.fr/bag/info', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 

@@ -1,6 +1,6 @@
 export const ReservationInsert_ = async (reservation) => {
     const response = await fetch(
-        'http://localhost:4444/reservation/insert', {
+        'https://api.elitebasketcamp.fr/reservation/insert', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -15,7 +15,7 @@ export const ReservationInsert_ = async (reservation) => {
 
 export const ReservationDelete_ = async (reservation) => {
     const response = await fetch(
-        'http://localhost:4444/reservation/delete', {
+        'https://api.elitebasketcamp.fr/reservation/delete', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -30,7 +30,7 @@ export const ReservationDelete_ = async (reservation) => {
 
 export const ReservationUpdate_ = async (reservation) => {
     const response = await fetch(
-        'http://localhost:4444/reservation/update', {
+        'https://api.elitebasketcamp.fr/reservation/update', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -45,7 +45,7 @@ export const ReservationUpdate_ = async (reservation) => {
 
 export const ReservationList_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/reservation/list', {
+        'https://api.elitebasketcamp.fr/reservation/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -59,7 +59,7 @@ export const ReservationList_ = async () => {
 
 export const ReservationDate_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/reservation/info_date', {
+        'https://api.elitebasketcamp.fr/reservation/info_date', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -73,7 +73,7 @@ export const ReservationDate_ = async () => {
 
 export const ReservationPlace_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/reservation/info_place', {
+        'https://api.elitebasketcamp.fr/reservation/info_place', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -87,7 +87,7 @@ export const ReservationPlace_ = async () => {
 
 export const ReservationCategory_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/reservation/info_category', {
+        'https://api.elitebasketcamp.fr/reservation/info_category', {
 
             method: 'GET', 
             headers: {

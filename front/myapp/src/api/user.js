@@ -1,6 +1,6 @@
 export const UserInsert_ = async (user) => {
         const response = await fetch(
-            'http://localhost:4444/user/insert', {
+            'https://api.elitebasketcamp.fr/user/insert', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
@@ -15,7 +15,7 @@ export const UserInsert_ = async (user) => {
 
 export const UserDelete_ = async (user) => {
     const response = await fetch(
-        'http://localhost:4444/user/delete', {
+        'https://api.elitebasketcamp.fr/user/delete', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -30,7 +30,7 @@ export const UserDelete_ = async (user) => {
 
 export const UserUpdate_ = async (user) => {
     const response = await fetch(
-        'http://localhost:4444/user/update', {
+        'https://api.elitebasketcamp.fr/user/update', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -45,7 +45,7 @@ export const UserUpdate_ = async (user) => {
 
 export const UserList_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/user/list', {
+        'https://api.elitebasketcamp.fr/user/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -59,7 +59,7 @@ export const UserList_ = async () => {
 
 export const UserEmail_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/user/info_email', {
+        'https://api.elitebasketcamp.fr/user/info_email', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 

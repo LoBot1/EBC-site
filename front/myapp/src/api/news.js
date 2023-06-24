@@ -1,6 +1,6 @@
 export const NewsInsert_ = async (News) => {
     const response = await fetch(
-        'http://localhost:4444/News/insert', {
+        'https://api.elitebasketcamp.fr/News/insert', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -15,7 +15,7 @@ export const NewsInsert_ = async (News) => {
 
 export const NewsDelete_ = async (News) => {
     const response = await fetch(
-        'http://localhost:4444/News/delete', {
+        'https://api.elitebasketcamp.fr/News/delete', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -30,7 +30,7 @@ export const NewsDelete_ = async (News) => {
 
 export const NewsUpdate_ = async (News) => {
     const response = await fetch(
-        'http://localhost:4444/News/update', {
+        'https://api.elitebasketcamp.fr/News/update', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -45,7 +45,7 @@ export const NewsUpdate_ = async (News) => {
 
 export const NewsList_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/News/list', {
+        'https://api.elitebasketcamp.fr/News/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 

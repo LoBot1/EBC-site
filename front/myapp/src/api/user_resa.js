@@ -1,6 +1,6 @@
 export const User_resaInsert_ = async (user_resa) => {
     const response = await fetch(
-        'http://localhost:4444/user_resa/insert', {
+        'https://api.elitebasketcamp.fr/user_resa/insert', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -15,7 +15,7 @@ export const User_resaInsert_ = async (user_resa) => {
 
 export const User_resaDelete_ = async (user_resa) => {
     const response = await fetch(
-        'http://localhost:4444/user_resa/delete', {
+        'https://api.elitebasketcamp.fr/user_resa/delete', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -30,7 +30,7 @@ export const User_resaDelete_ = async (user_resa) => {
 
 export const User_resaUpdate_ = async (user_resa) => {
     const response = await fetch(
-        'http://localhost:4444/user_resa/update', {
+        'https://api.elitebasketcamp.fr/user_resa/update', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -45,7 +45,7 @@ export const User_resaUpdate_ = async (user_resa) => {
 
 export const User_resaList_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/user_resa/list', {
+        'https://api.elitebasketcamp.fr/user_resa/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -59,7 +59,7 @@ export const User_resaList_ = async () => {
 
 export const User_resaInform_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/user_resa/info', {
+        'https://api.elitebasketcamp.fr/user_resa/info', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
@@ -73,7 +73,7 @@ export const User_resaInform_ = async () => {
 
 export const User_resaAdminInform_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/user_resa/admin_info', {
+        'https://api.elitebasketcamp.fr/user_resa/admin_info', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 

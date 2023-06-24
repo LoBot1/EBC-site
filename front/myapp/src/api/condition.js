@@ -1,6 +1,6 @@
 export const ConditionInsert_ = async (condition) => {
     const response = await fetch(
-        'http://localhost:4444/condition/insert', {
+        'https://api.elitebasketcamp.fr/condition/insert', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -15,7 +15,7 @@ export const ConditionInsert_ = async (condition) => {
 
 export const ConditionDelete_ = async (condition) => {
     const response = await fetch(
-        'http://localhost:4444/condition/delete', {
+        'https://api.elitebasketcamp.fr/condition/delete', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -30,7 +30,7 @@ export const ConditionDelete_ = async (condition) => {
 
 export const ConditionUpdate_ = async (condition) => {
     const response = await fetch(
-        'http://localhost:4444/condition/update', {
+        'https://api.elitebasketcamp.fr/condition/update', {
             method: 'POST', 
             headers: {
                 'Accept': 'application/json', 
@@ -45,7 +45,7 @@ export const ConditionUpdate_ = async (condition) => {
 
 export const ConditionList_ = async () => {
     const response = await fetch(
-        'http://localhost:4444/condition/list', {
+        'https://api.elitebasketcamp.fr/condition/list', {
             method: 'GET', 
             headers: {
                 'Accept': 'application/json', 
