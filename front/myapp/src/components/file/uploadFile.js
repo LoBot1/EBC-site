@@ -5,7 +5,7 @@ export function UploadFile (id, table, param, file){
     {
     const formData = new FormData();
     formData.append("images", file);
-    axios.post("http://localhost:4444/upload/image/" + id +'/' + table +'/' + param , formData)
+    axios.post("https://api.elitebasketcamp.fr/upload/image/" + id +'/' + table +'/' + param , formData)
         .then (res => {
             if (res.data.Status === "Success")
             {
