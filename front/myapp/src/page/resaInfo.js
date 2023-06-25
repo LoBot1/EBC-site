@@ -19,7 +19,7 @@ export function ReservationInfo(props) {
     useEffect (() => {
         if (info.resa.mainImage.length > 0)
     {    
-        setPathMainImage ((require("../image/pictures/" + info.resa.mainImage)))
+        setPathMainImage ("https://api.elitebasketcamp.fr/image/" + info.resa.mainImage)
     }
     if (info.resa.image1.length > 0)
     {    
