@@ -6,8 +6,6 @@ export function Display(props) {
     const userId = ReactSession.get("id");
     const [path , setPath ] = useState("") ;
 
-    // console.log("props : " + props.resa.place);
-
     const newBag = async (reservation_id) => {
         if (ReactSession.get("login") != 1)
         {

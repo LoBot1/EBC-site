@@ -201,7 +201,6 @@ export default function ReservationInfo(props) {
                 </div>
                 <div className="info3"><p>Video</p>
                 <input placeholder="Video" type="file" id="vide" onChange={changeVideo} defaultValue={video} />
-                {console.log(props.reservation.video)}
                 {props.reservation.video.length > 0 &&
                 <img src={"https://api.elitebasketcamp.fr/image/" + props.reservation.video}></img>
                 }

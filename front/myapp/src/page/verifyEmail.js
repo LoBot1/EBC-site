@@ -13,7 +13,6 @@ export function VerifyEmail() {
     
   const [load,IsLoad ] = useState(false)
     
-  console.log(load)
   if (load == false) {
       ReactSession.set("id", -1);
       ReactSession.set("first_name", "");
@@ -31,8 +30,6 @@ export function VerifyEmail() {
       ReactSession.set("login", 0);
       IsLoad(true)
   }
-// console.log(ReactSession.get("id"))
-
 
     useEffect(() => {
         const getUserEmail = setInterval(() => {

@@ -12,8 +12,6 @@ export default function Login(props) {
     const [coach_list, setCoachList] = useState();
     const [isLoaded, setIsLoaded] = useState(false)
 
-    console.log(email)
-
     useEffect(() => {
         const getCoachProfils = setInterval(() => {
             if (!isLoaded) {

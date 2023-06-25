@@ -11,8 +11,6 @@ export function RemoveEntity(array, value) {
 export function RemoveEntityObject(array, value) {
     const newArray = [];
     array.forEach((tab) => {
-        // console.log(tab)
-        // console.log(value)
         if (tab.id != value.id) {
             newArray.push(tab);
         }

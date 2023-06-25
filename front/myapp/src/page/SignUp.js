@@ -11,7 +11,6 @@ export default function SignUp(props) {
     const [password, setPassword] = useState();
     const [confirmPassword, setConfirmPassword] = useState();
     const [email, setEmail] = useState(ReactSession.get("email"));
-    console.log(email)
     const [lastName, setLastName] = useState();
     const [firstName, setFirstName] = useState();
 
@@ -28,7 +27,6 @@ export default function SignUp(props) {
         setLastName(params.target.value)
     }
     const changeFirstName = useMemo(() => (params) => {
-        console.log(params.target.value)
         setFirstName(params.target.value)
     }, [firstName])
     const onSubmitNewUser = async () => {

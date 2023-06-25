@@ -631,5 +631,3 @@ app.post("/delete/file/:file", jsonParser,   (req, res) => {
   res.send('file removed');
 });
 
-console.log(process.cwd())
-
