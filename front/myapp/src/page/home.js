@@ -21,10 +21,6 @@ import NavBarBlack from '../components/navbariconblack';
 <script src="https://kit.fontawesome.com/bc8591f4e3.js" crossorigin="anonymous"></script>
 
 function Home() {
-    if (ReactSession.get("id") == -1 || ReactSession.get("id") == "")
-    {
-        window.location.replace("/verify_email")
-    }
     return <div className="-contain">
         <NavBarBlack />
         <div className='home2'>

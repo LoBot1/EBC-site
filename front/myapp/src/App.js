@@ -72,7 +72,8 @@ export function App() {
         </Route>
 
         <Route exact path="/">
-          <VerifyEmail setAlerts={setAlerts} setShow={setShow} setColors={setColors} />
+          {/* <VerifyEmail setAlerts={setAlerts} setShow={setShow} setColors={setColors} /> */}
+          <Home />
         </Route>
 
         <Route exact path="/login">

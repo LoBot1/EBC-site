@@ -45,6 +45,13 @@ function NavBar(props) {
                             </li>
                         }
                     </ul>
+                    {/* <ul>
+                        {ReactSession.get("login") && ReactSession.get("login") == 1 &&
+                            <li>
+                                <a className="coach nav" href="/user_resa_list">Mes stages</a>
+                            </li>
+                        }
+                    </ul> */}
                     <ul>
                         {ReactSession.get("admin") && ReactSession.get("admin") == 1 &&
                             <li>
