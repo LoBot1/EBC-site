@@ -31,6 +31,7 @@ import EBC from "./page/test";
 import { ReservationInfo } from "./page/resaInfo";
 import { AdminNews } from "./page/admin/news/adminNews";
 import { VerifyEmail } from "./page/verifyEmail";
+import { Waiting } from "./page/WAITINGpage";
 
 export function App() {
   ReactSession.setStoreType("cookie");
@@ -74,6 +75,10 @@ export function App() {
         <Route exact path="/">
           {/* <VerifyEmail setAlerts={setAlerts} setShow={setShow} setColors={setColors} /> */}
           <Home />
+        </Route>
+        <Route exact path="/wait">
+          {/* <VerifyEmail setAlerts={setAlerts} setShow={setShow} setColors={setColors} /> */}
+          <Waiting />
         </Route>
 
         <Route exact path="/login">
