@@ -125,57 +125,81 @@ export default function Profil_user(props) {
                     <NavBarBlack />
                     <form key={user.id}>
                         <div className="profil-value">
-                            <div className="title-profil">
-                                <div className="title-profil1">
-                                    <h2>{first_name} {last_name}</h2>
+                            {/* ALL GAUCHE */}
+                            <div className="title-profil-G">
+
+                                <div className="info-title-G">
+                                    <span className="img"></span>
                                 </div>
-                                <div className="title-profil2">
-                                    <h2>{email}</h2>
+
+                                <div className="info-title-D">
+                                    <div className="title-profil1">
+                                        <h2>{first_name} {last_name}</h2>
+                                    </div>
+                                    <div className="title-profil2">
+                                        <h2>{email}</h2>
+                                    </div>
                                 </div>
 
                             </div>
-                            <div className="profil-value-1">
-                                <h1>Profil Settings</h1>
-                                <div className="profil-info1">
-                                    <div className="info1">
-                                        <p>Prénom</p>
-                                        <input className="info-user" placeholder="Prénom d'utilisateur" type="text" id="first_name" onChange={changeFirst_name} defaultValue={first_name} />
+                            {/* ALL GAUCHE */}
+
+
+
+                            {/* ALL DROITE */}
+                            <div className="title-profil-D">
+                                <div className="profil-value-1">
+                                    <div className="profil-info1">
+                                        <div className="info1">
+                                            <p>Prénom*</p>
+                                            <input className="info-user" placeholder="Prénom d'utilisateur" type="text" id="first_name" onChange={changeFirst_name} defaultValue={first_name} />
+                                        </div>
+                                        <div className="info1">
+                                            <p>Nom*</p>
+                                            <input className="info-user" placeholder="Nom d'utilisateur" type="text" id="last_name" onChange={changeLast_name} defaultValue={last_name} />
+                                        </div>
+                                        <div className="info1">
+                                            <p>Tel.</p>
+                                            <input className="info-user" placeholder="Numéro de téléphone" type="text" id="phone_number" onChange={changePhone_number} defaultValue={phone_number} />
+                                        </div>
+                                        <div className="info1">
+                                            <p>Email*</p>
+                                            <input className="info-user" placeholder="Email" type="text" id="email" onChange={changeEmail} defaultValue={email} />
+                                        </div>
+                                        <input type="hidden" id="userId" value={id} onChange={changeId} />
                                     </div>
-                                    <div className="info1">
-                                        <p>Nom</p>
-                                        <input className="info-user" placeholder="Nom d'utilisateur" type="text" id="last_name" onChange={changeLast_name} defaultValue={last_name} />
-                                    </div>
-                                    <div className="info1">
-                                        <p>Tel.</p>
-                                        <input className="info-user" placeholder="Numéro de téléphone" type="text" id="phone_number" onChange={changePhone_number} defaultValue={phone_number} />
-                                    </div>
-                                    <div className="info1">
-                                        <p>Email</p>
-                                        <input className="info-user" placeholder="Email" type="text" id="email" onChange={changeEmail} defaultValue={email} />
-                                    </div>
-                                    <input type="hidden" id="userId" value={id} onChange={changeId} />
+
                                 </div>
 
+
+                                <div className="profil-value-2">
+                                    <div className="profil-info-2">
+                                        <div className="profil-info2">
+
+                                            <div className="info1">
+                                                <p>Ville</p>
+                                                <input className="info-user" placeholder="Ville" type="text" id="city" onChange={changeCity} defaultValue={city} />
+                                            </div>
+                                            <div className="info1">
+                                                <p>Code Postal</p>
+                                                <input className="info-user" placeholder="Code postal" type="text" id="postal_code" onChange={changePostal_code} defaultValue={postal_code} />
+                                            </div>
+                                            <div className="info1">
+                                                <p>Adresse</p>
+                                                <input className="info-user" placeholder="Adresse" type="text" id="adress" onChange={changeAdress} defaultValue={adress} />
+                                            </div>
+                                            <div className="info1">
+                                                <p>Appartement</p>
+                                                <input className="info-user" placeholder="Appartement" type="text" id="apartment" onChange={changeApartment} defaultValue={apartment} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="check-userinfo">
                                     <input className="check" type="button" value="sauvegarder" onClick={onClickUpdateUser} />
                                 </div>
+                                {/* ALL DROITE */}
                             </div>
-                            <div className="profil-value-2">
-                                <div className="info1">
-                                    <p>Ville</p>
-                                    <input className="info-user" placeholder="Ville" type="text" id="city" onChange={changeCity} defaultValue={city} />
-                                </div>
-                                <div className="info1">
-                                    <p>Code Postal</p>
-                                    <input className="info-user" placeholder="Code postal" type="text" id="postal_code" onChange={changePostal_code} defaultValue={postal_code} />
-                                </div>
-                                <div className="info1">
-                                    <p>Adresse</p>
-                                    <input className="info-user" placeholder="Adresse" type="text" id="adress" onChange={changeAdress} defaultValue={adress} />
-                                    <input className="info-user" placeholder="Appartement" type="text" id="apartment" onChange={changeApartment} defaultValue={apartment} />
-                                </div>
-                            </div>
-
                         </div>
                     </form>
                 </div>

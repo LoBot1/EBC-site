@@ -1,4 +1,85 @@
 .profil_user_contain{
     background-color: white;
     height: 100vh;
+    background-size: cover;
+    background-image: url(../image/background/bbcblue.png);
+}
+
+.profil-value{
+    display: flex;
+    padding-top: 20vh;
+}
+.title-profil-G, .title-profil-D{
+    width: 50%;
+}
+.profil-value-1,.profil-info-2{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    width: 80%;
+    padding-top: 20px ;
+    padding-left: 60px;
+    border-radius: 20px;
+}
+.profil-info-2{
+    margin-top: 50px ;
+}
+
+.profil-info1, .profil-info2{
+    display: grid;
+    grid-template-columns: repeat(2,30vh);
+    grid-template-rows: repeat(2,10vh);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+}
+.title-profil-D input{
+    width: 20vh;
+    height:4vh ;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    background-color: rgba(240, 240, 240, 0);
+    
+
+}
+.title-profil-D input::placeholder{
+    color: rgba(128, 128, 128, 0.562);
+}
+.title-profil-D  input{
+    padding: 8px;
+}
+.title-profil-D p{
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.check-userinfo{
+    display: flex;
+    justify-content: end;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+
+.check-userinfo input{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-weight: 900;
+    border: 1px solid black;
+}
+.check-userinfo input:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.2s;
+    color: black;
+    border: 1px solid;
+
+}
+/* partie droite si dessus */
+/* partie gauche si dessous */
+
+.info-title-G span.img{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    position: absolute;
 }
