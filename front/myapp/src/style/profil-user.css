@@ -20,7 +20,7 @@
     width: 80%;
     padding-top: 20px ;
     padding-left: 60px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .profil-info-2{
     margin-top: 50px ;
@@ -36,7 +36,7 @@
 .title-profil-D input{
     width: 20vh;
     height:4vh ;
-    border-radius: 8px;
+    border-radius: 3px;
     border: 1px solid rgba(128, 128, 128, 0.267);
     background-color: rgba(240, 240, 240, 0);
     
@@ -77,9 +77,38 @@
 /* partie droite si dessus */
 /* partie gauche si dessous */
 
-.info-title-G span.img{
-    width: 50px;
-    height: 50px;
+.info-title-G {
+    position: relative;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 110px;
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 12px;
     background-color: grey;
-    position: absolute;
 }
+.title-profil-G{
+    display: flex;
+}
+.info-title-G span.img{
+   
+    position: absolute;
+
+}
+
+.info-title-D{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.info-title-D .title-profil1 h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.info-title-D .title-profil2 h2{
+    color: rgb(161, 155, 155);
+}
+
