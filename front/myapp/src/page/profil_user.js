@@ -133,12 +133,15 @@ export default function Profil_user(props) {
                                 </div>
 
                                 <div className="info-title-D">
-                                    <div className="title-profil1">
-                                        <h2>{first_name} {last_name}</h2>
+                                    <div className="info">
+                                        <div className="title-profil1">
+                                            <h2>{first_name} {last_name}</h2>
+                                        </div>
+                                        <div className="title-profil2">
+                                            <h2>{email}</h2>
+                                        </div>
                                     </div>
-                                    <div className="title-profil2">
-                                        <h2>{email}</h2>
-                                    </div>
+
                                 </div>
 
                             </div>
