@@ -1,79 +1,91 @@
-.profil_user_contain{
+.profil_user_contain {
     background-color: white;
     height: 100vh;
     background-size: cover;
-    background-image: url(../image/background/bbcblue.png);
+    background-image: url(../image/background/backcomputer.png);
 }
 
-.profil-value{
+.profil-value {
     display: flex;
     padding-top: 20vh;
 }
-.title-profil-G, .title-profil-D{
+
+.title-profil-G,
+.title-profil-D {
     width: 50%;
 }
-.profil-value-1,.profil-info-2{
+
+.profil-value-1,
+.profil-info-2 {
 
     display: flex;
     justify-content: center;
     background-color: rgb(235, 235, 235);
     width: 80%;
-    padding-top: 20px ;
+    padding-top: 20px;
     padding-left: 60px;
     border-radius: 10px;
 }
-.profil-info-2{
-    margin-top: 50px ;
+
+.profil-info-2 {
+    margin-top: 50px;
 }
 
-.profil-info1, .profil-info2{
+.profil-info1,
+.profil-info2 {
     display: grid;
-    grid-template-columns: repeat(2,30vh);
-    grid-template-rows: repeat(2,10vh);
+    grid-template-columns: repeat(2, 30vh);
+    grid-template-rows: repeat(2, 10vh);
     grid-column-gap: 12px;
     grid-row-gap: 12px;
 }
-.title-profil-D input{
+
+.title-profil-D input {
     width: 20vh;
-    height:4vh ;
+    height: 4vh;
     border-radius: 3px;
     border: 1px solid rgba(128, 128, 128, 0.267);
     background-color: rgba(240, 240, 240, 0);
-    
+
 
 }
-.title-profil-D input::placeholder{
+
+.title-profil-D input::placeholder {
     color: rgba(128, 128, 128, 0.562);
 }
-.title-profil-D  input{
+
+.title-profil-D input {
     padding: 8px;
 }
-.title-profil-D p{
+
+.title-profil-D p {
     font-weight: 900;
     font-size: 13px;
 }
 
-.check-userinfo{
+.check-userinfo {
     display: flex;
     justify-content: end;
     margin-right: 20%;
     margin-top: 40px;
 }
 
-.check-userinfo input{
+.check-userinfo input {
     background-color: black;
     color: white;
     border-radius: 30px;
     font-weight: 900;
     border: 1px solid black;
 }
-.check-userinfo input:hover{
+
+.check-userinfo input:hover {
     background-color: rgba(255, 255, 255, 0);
     transition: 0.2s;
     color: black;
     border: 1px solid;
 
 }
+
 /* partie droite si dessus */
 /* partie gauche si dessous */
 
@@ -84,31 +96,81 @@
     margin-left: 110px;
     width: 150px;
     height: 150px;
-    
+
     border-radius: 12px;
     background-color: grey;
 }
-.title-profil-G{
+
+.title-profil-G {
     display: flex;
 }
-.info-title-G span.img{
-   
-    position: absolute;
 
-}
 
-.info-title-D{
+
+.info-title-D {
     display: flex;
     justify-content: center;
 
-    
+
 }
 
-.info-title-D .title-profil1 h2{
+.info-title-D .title-profil1 h2 {
     font-weight: bold;
     font-size: 30px;
 }
-.info-title-D .title-profil2 h2{
-    color: rgb(161, 155, 155);
+
+.info-title-D .title-profil2 h2 {
+    color: rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 1400px) {
+    .profil_user_contain {
+        background-image: url(../image/background/backphone.png);
+        height: 200vh;
+    }
+
+    .profil-value {
+        display: flow;
+        text-align: -webkit-center;
+    }
+
+    .profil-value .profil-value-1,
+    .profil-value .profil-info-2 {
+        width: 100%;
+        padding-left: 0;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .profil-info1,
+    .profil-info2 {
+        display: inline;
+        text-align: start;
+
+    }
+
+    .check-userinfo {
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .title-profil-D .profil-value-1 input,
+    .title-profil-D .profil-info-2 input {
+        border: 1px solid black;
+        background-color: rgba(255, 255, 255, 0.664);
+    }
+
+    .title-profil-G {
+        display: inline;
+
+
+    }
+
+    .info-title-D .info {
+        border-bottom: 1px solid rgb(0, 0, 0);
+        padding-bottom: 36px;
+    }
+
+    .info-title-G {
+        margin: 0;
+    }
+}

@@ -6,7 +6,7 @@ body {
 .text-container {
   margin-top: 5vh;
   height: 15vh;
-  /* width: 100vw; */
+  
   display: flex;
   justify-content: center;
   align-items: center;

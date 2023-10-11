@@ -78,6 +78,7 @@ a.nav:where(:hover, :focus-visible) {
     background-position-x: left;
     position: relative;
     z-index: 10;
+    
 }
 
 header .nav-btn {
@@ -120,7 +121,8 @@ html body div#root header div nav.responsive_nav {
     /* background-color: rgb(27, 39, 27); */
     /* background-color: #232d23; */
     
-    background: linear-gradient(to bottom left, #ffffff, #333333);
+    background-image: url(../image/background/backphone.png);
+    background-size: cover;
     box-shadow: 2px 2px 38px rgb(63 91 63 / 42%);
 
 }
@@ -202,5 +204,5 @@ html body div#root header nav button.nav-btn.nav-close-btn svg {
     nav a {
         font-size: 1.5rem;
     }
-   
+    
 }

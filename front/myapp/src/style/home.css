@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*::before, *::after{
+    box-sizing: border-box;
 
+}
 /*---------------------------------------------------- EBC ----------------------------------------------------*/
 .-contain header {
     position: absolute !important;
@@ -943,6 +946,34 @@ span.righph {
 }
 
 /*---------------------------------------------------- SLIDE 6/6 ----------------------------------------------------*/
+@media only screen and (max-width: 1700px) {
+    .slide2 .relative{
+        display: inline;
+    }
+    .photo1{
+        display: flex;
+    }
+    .photo1 .img1 ,.photo1 .img2 , .photo1 .img3, .photo1 .img4 , .photo1 .img5 , .photo1 .img6 , .photo1 .img7 {
+        position:  unset;
+        width: 300px;
+        height: 500px;
+        background-size: cover;
+        background-position-x: 0px;
+        background-position-y: 0px;
+        border-radius: 20px;
+       
+
+    }
+    .photo1 {
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 24px;
+    }
+    .photo1 .item{
+        scroll-snap-align: start;
+    }
+    
+
+}
 
 
 @media only screen and (max-width: 1266px) {
