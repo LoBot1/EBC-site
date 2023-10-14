@@ -5,22 +5,25 @@ export default class SliderMain2 extends Component {
         return (
             <div className="content-carousel2">
                 <div className='conteudo'>
+
+
                     <div className='carrousel'>
-                        <article className='card M1'>
+                        <article className='cardS M1' id="carousel__slide1">
                         </article>
-                        <article className='card M2'>
+                        <article className='cardS M2' id="carousel__slide2">
                         </article>
-                        <article className='card M3'>
+                        <article className='cardS M3' id="carousel__slide3">
                         </article>
-                        <article className='card M4'>
+                        <article className='cardS M4' id="carousel__slide4">
                         </article>
-                        <article className='card M5'>
+                        <article className='cardS M5' id="carousel__slide5">
                         </article>
-                        <article className='card M6'>
+                        <article className='cardS M6' id="carousel__slide6">
                         </article>
 
                     </div>
                 </div>
+
             </div>
 
         )

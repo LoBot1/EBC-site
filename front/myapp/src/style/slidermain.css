@@ -1,4 +1,4 @@
-.content-carousel{
+.content-carousel {
     display: flex;
     justify-content: center;
 }
@@ -19,16 +19,27 @@
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     border-radius: 30px;
-    
+
     padding: 50px 50px;
 
 }
 
 .carrousel::-webkit-scrollbar {
-    display: none;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 80px;
+    border-radius: 30px ;
 }
 
-.card {
+.carrousel::-webkit-scrollbar-track {
+    height: 500px;
+}
+
+.carrousel::-webkit-scrollbar-thumb{
+    background-color: rgba(119, 119, 119, 0.342);
+    border-radius: 36px;
+}
+.cardS {
     margin-left: 15px;
     scroll-snap-align: start;
     border-radius: 30px;
@@ -37,46 +48,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.card:nth-child(odd) {
+.cardS:nth-child(odd) {
     background-color: rgb(255, 0, 0);
 }
 
-.card:nth-child(even) {
+.cardS:nth-child(even) {
     background-color: blue;
-}   
+}
 
-.P1{
+.P1 {
     background-image: url(../image/photo\ montage\ 2/D1.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
 
-.P2{
+.P2 {
     background-image: url(../image/photo\ montage\ 2/G2.jpeg);
     background-size: 205%;
     background-position-x: -200px;
 }
-.P3{
+
+.P3 {
     background-image: url(../image/photo\ montage\ 2/G3.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
-.P4{
+
+.P4 {
     background-image: url(../image/photo\ montage\ 2/D3.jpeg);
     background-size: cover;
     background-position-x: -200px;
 
 }
-.P5{
+
+.P5 {
     background-image: url(../image/photo\ montage\ 2/G1.JPG);
     background-size: 211%;
 }
-.P6{
+
+.P6 {
     background-image: url(../image/photo\ montage\ 2/D2.jpeg);
     background-size: cover;
     background-position-x: -200px;

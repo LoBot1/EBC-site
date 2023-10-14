@@ -5,6 +5,7 @@ import "../style/resainfo.css";
 import NavBarBlack from "../components/navbariconblack";
 import Slider from '../components/slider';
 import { useEffect, useState } from 'react';
+import CarouselSlider from '../components/carouselslide';
 
 export function ReservationInfo(props) {
     const userId = ReactSession.get("id");
@@ -63,6 +64,7 @@ export function ReservationInfo(props) {
             <NavBarBlack />
             <div className="slide" >
                 <div className="slide1 card">
+                    <CarouselSlider/>
                     <div className="pt"><div className="ptG ">
                         <div className="imgproduct"><img src={pathMainImage} alt="Image du stage d'Elite Basket Camp" /></div>
                         <div className="imgproduct"><img src={pathImage1} alt="Image du stage d'Elite Basket Camp" /></div>

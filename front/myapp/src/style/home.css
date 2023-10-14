@@ -1008,9 +1008,11 @@ span.righph {
     .photo1 {
         display: flex;
     }
-    .vidéoEBC video{
+
+    .vidéoEBC video {
         display: none;
     }
+
     .photo1 .img1,
     .photo1 .img2,
     .photo1 .img3,
@@ -1139,33 +1141,38 @@ span.righph {
         width: 70%;
 
     }
-    #contact-info .links a:hover svg{
+
+    #contact-info .links a:hover svg {
         fill: rgb(0, 0, 0);
         transition: 0.2s;
 
     }
-    .morinfo a h3{
+
+    .morinfo a h3 {
         color: white;
-        margin-top: 0;
+        margin: 0;
         font-size: 25px;
-       
+
     }
-    .morinfo a{
+
+    .morinfo a {
         background-color: black;
         padding: 10px 105px;
         border-radius: 30px;
         align-items: center;
         margin-top: 40px;
+        border: 2px solid black;
     }
-    .morinfo a:hover h3{
+
+    .morinfo a:hover h3 {
         color: black;
     }
+
     .morinfo a:hover {
-        
         border: 2px solid black;
         background-color: rgba(255, 255, 255, 0);
     }
-   
+
 }
 
 @media only screen and (max-width: 1266px) {
@@ -1196,7 +1203,18 @@ span.righph {
         top: 85%;
     }
 }
-
+@media only screen and (max-width: 870px){
+    .slide6{
+        height: 50vh;
+    }
+    .slide6 .partenaire{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+    }
+}
 @media only screen and (max-width: 750px) {
 
     .btn-to-rsrv {

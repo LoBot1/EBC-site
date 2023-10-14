@@ -25,10 +25,10 @@
 }
 
 .carrousel::-webkit-scrollbar {
-    display: none;
+    visibility: visible;
 }
 
-.card {
+.cardS {
     margin-left: 15px;
     scroll-snap-align: start;
     border-radius: 30px;
@@ -40,45 +40,72 @@
     
 }
 
-.card:nth-child(odd) {
+.cardS:nth-child(odd) {
     background-color: rgb(255, 0, 0);
 }
 
-.card:nth-child(even) {
+.cardS:nth-child(even) {
     background-color: blue;
 }   
 
 .M1{
-    background-image: url(../image/photo\ montage\ 2/D1.JPG);
+    background-image: url(../image/photro\ montage/CENTER.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
 
 .M2{
-    background-image: url(../image/photo\ montage\ 2/G2.jpeg);
-    background-size: 205%;
+    background-image: url(../image/photro\ montage/D1.jpeg);
+    background-size: 210%;
     background-position-x: -200px;
 }
 .M3{
-    background-image: url(../image/photo\ montage\ 2/G3.JPG);
+    background-image: url(../image/photro\ montage/D3.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
 .M4{
-    background-image: url(../image/photo\ montage\ 2/D3.jpeg);
+    background-image: url(../image/photro\ montage/G1.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
 .M5{
-    background-image: url(../image/photo\ montage\ 2/G1.JPG);
-    background-size: 211%;
+    background-image: url(../image/photro\ montage/G2.jpeg);
+    background-size: 190%;
+    background-position-x: -400px;
+
 }
 .M6{
-    background-image: url(../image/photo\ montage\ 2/D2.jpeg);
+    background-image: url(../image/photro\ montage/G3.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
+
+.carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__navigation-list,
+  .carousel__navigation-item {
+    display: inline-block;
+  }
+  
+  .carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #333;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+  }

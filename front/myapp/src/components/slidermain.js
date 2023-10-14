@@ -7,17 +7,17 @@ export default class SliderMain extends Component {
             <div className="content-carousel">
                 <div className='conteudo'>
                     <div className='carrousel'>
-                        <article className='card P1'>
+                        <article className='cardS P1'>
                         </article>
-                        <article className='card P2'>
+                        <article className='cardS P2'>
                         </article>
-                        <article className='card P3'>
+                        <article className='cardS P3'>
                         </article>
-                        <article className='card P4'>
+                        <article className='cardS P4'>
                         </article>
-                        <article className='card P5'>
+                        <article className='cardS P5'>
                         </article>
-                        <article className='card P6'>
+                        <article className='cardS P6'>
                         </article>
 
                     </div>
