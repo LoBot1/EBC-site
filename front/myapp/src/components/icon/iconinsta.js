@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import ".././../style/home.css"
 const Insta = ({  size = 120, color = "#fff", ...props }) => (
     <svg
         width={size}

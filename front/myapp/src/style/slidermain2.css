@@ -48,35 +48,35 @@
     background-color: blue;
 }   
 
-.P1{
+.M1{
     background-image: url(../image/photo\ montage\ 2/D1.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
 
-.P2{
+.M2{
     background-image: url(../image/photo\ montage\ 2/G2.jpeg);
     background-size: 205%;
     background-position-x: -200px;
 }
-.P3{
+.M3{
     background-image: url(../image/photo\ montage\ 2/G3.JPG);
     background-size: cover;
     background-position-x: -200px;
 
 }
-.P4{
+.M4{
     background-image: url(../image/photo\ montage\ 2/D3.jpeg);
     background-size: cover;
     background-position-x: -200px;
 
 }
-.P5{
+.M5{
     background-image: url(../image/photo\ montage\ 2/G1.JPG);
     background-size: 211%;
 }
-.P6{
+.M6{
     background-image: url(../image/photo\ montage\ 2/D2.jpeg);
     background-size: cover;
     background-position-x: -200px;

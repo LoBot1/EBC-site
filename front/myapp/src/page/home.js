@@ -18,6 +18,8 @@ import logo from '../image/logop/logo.png'
 import Wave from '../components/wave';
 import NavBarBlack from '../components/navbariconblack';
 import Slider1photo from '../components/sliderphoto1';
+import SliderMain from '../components/slidermain';
+import SliderMain2 from '../components/slidermain2';
 
 <script src="https://kit.fontawesome.com/bc8591f4e3.js" crossorigin="anonymous"></script>
 
@@ -70,7 +72,7 @@ function Home() {
                 </div>
             </div>
             <div className='relative slide 2'>
-                {/* <div className='photo1'>
+                <div className='photo1'>
                     <div className='img1 D1'></div>
                     <div className='img2 D2'></div>
                     <div className='img3 D3'></div>
@@ -79,9 +81,9 @@ function Home() {
                     <div className='img5 G1'></div>
                     <div className='img6 G2'></div>
                     <div className='img7 G3'></div>
-                </div> */}
-                
-                <Slider1photo/>
+                </div>
+
+                <SliderMain />
                 <div className='text1'>
                     <h1>Rejoins Nous</h1>
                     <p className='1'>et viens découvrir l'ambiance <br></br> "Elite Basket Camp"</p>
@@ -95,7 +97,7 @@ function Home() {
                         <a href='#'><h3>Retrouver nos camps</h3></a>
                     </div>
                 </div>
-              
+
             </div>
         </div>
 
@@ -182,6 +184,8 @@ function Home() {
                 </div>
             </div>
             <div className='relative2 slide-3'>
+
+                <SliderMain2 />
                 <div className='text2'>
                     <h1>Notre équipe</h1>
                     <p className='1'>jeune et surmotivée rendra vos vacances inoubliables.</p>
@@ -206,7 +210,6 @@ function Home() {
                     <div className='img6 G2'></div>
                     <div className='img7 G3'></div>
                 </div>
-
 
             </div>
         </div>

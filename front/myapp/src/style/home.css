@@ -1,33 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
-*::before, *::after{
+
+*::before,
+*::after {
     box-sizing: border-box;
 
+    * {
+        background-color: white;
+    }
 }
+
 /*---------------------------------------------------- EBC ----------------------------------------------------*/
 .-contain header {
     position: absolute !important;
     background-color: rgba(255, 255, 255, 0) !important;
 }
-.home2{
+
+.home2 {
     background-color: #e7e7e7;
     display: flex;
     flex-direction: column;
 }
-.btn-to-rsrv{
+
+.btn-to-rsrv {
     margin-bottom: 4vh;
     text-align: center;
 }
+
 .btn-to-rsrv a {
     color: #fff;
-    padding: 10px 20px;    
+    padding: 10px 20px;
     border-radius: 35px;
     background-color: #000000;
     margin: 10px;
     transition: 0.1s;
     font-size: 16px;
     line-height: 120px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
@@ -60,32 +69,36 @@
     ;
     position: relative;
 }
-.slide1 .wave1{
+
+.slide1 .wave1 {
     width: 50%;
     height: 40vh;
-    bottom:0 ;
+    bottom: 0;
     background-color: #e7e7e700;
     position: absolute;
     z-index: 9;
 }
-.slide1 .bloc1{
+
+.slide1 .bloc1 {
     position: absolute;
     bottom: 0;
     border-top-right-radius: 100%;
     width: 30%;
     height: 40vh;
-    background-color:#4D98D6;
+    background-color: #4D98D6;
     z-index: 11;
 }
-.slide1 .wave2{
+
+.slide1 .wave2 {
     width: 50%;
     height: 40vh;
-    bottom:0 ;
+    bottom: 0;
     right: 0;
     background-color: #e7e7e700;
     position: absolute;
     z-index: 9;
 }
+
 .slide1 .logo {
     position: absolute;
     top: 5vh;
@@ -115,7 +128,7 @@
 
     background-repeat: no-repeat;
     background-blend-mode: color;
-    
+
 }
 
 .vidéoEBC {
@@ -240,21 +253,25 @@ span.righph {
     margin-top: 40px;
     color: black;
 }
-.morinfo{
+
+.morinfo {
     display: flex;
     justify-content: center;
 }
+
 .slide2 a,
-.slide3 a{
+.slide3 a {
     border-bottom: 2px solid rgba(255, 255, 255, 0);
     transition: 0.3s;
 }
+
 .slide2 a:hover,
-.slide3 a:hover{
-   text-decoration: none;
-   border-bottom: 2px solid black;
+.slide3 a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid black;
     transition: 0.3s;
 }
+
 /* text slide 2 */
 
 /* image slide 2 */
@@ -276,6 +293,7 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
+
 .slide2 .G2 {
     width: 400px;
     height: 250px;
@@ -289,6 +307,7 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
+
 .slide2 .G3 {
     width: 400px;
     height: 250px;
@@ -302,8 +321,9 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
-.slide2 .CENTER{
-     width: 410px;
+
+.slide2 .CENTER {
+    width: 410px;
     height: 410px;
     background-image: url(../image/photro\ montage/CENTER.JPG);
     position: absolute;
@@ -316,8 +336,9 @@ span.righph {
     background-color: white;
     transition: 0.3s;
 }
-.slide2 .CENTERBack{
-     width: 450px;
+
+.slide2 .CENTERBack {
+    width: 450px;
     height: 450px;
     position: absolute;
     top: 245px;
@@ -328,13 +349,14 @@ span.righph {
     background-color: rgb(255, 255, 255);
     transition: 0.3s;
 }
-.slide2 .D1{
+
+.slide2 .D1 {
     width: 450px;
     height: 250px;
     background-image: url(../image/photro\ montage/D1.jpeg);
     position: absolute;
     top: 45px;
-    left:500px;
+    left: 500px;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.164);
     background-blend-mode: color;
@@ -343,15 +365,16 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
-.slide2 .D2{
+
+.slide2 .D2 {
     width: 550px;
     height: 285px;
     background-image: url(../image/photro\ montage/D2.jpeg);
     position: absolute;
     top: 315px;
-    left:500px;
+    left: 500px;
     background-size: cover;
-    background-position-x: 100px ;
+    background-position-x: 100px;
     background-color: rgba(0, 0, 0, 0.288);
     background-blend-mode: color;
     z-index: 3;
@@ -359,19 +382,21 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
-.slide2 .D3{
+
+.slide2 .D3 {
     width: 400px;
     height: 250px;
     background-image: url(../image/photro\ montage/D3.JPG);
     position: absolute;
     top: 615px;
-    left:500px;
+    left: 500px;
     background-size: cover;
     z-index: 3;
     transition: 0.3s;
     box-shadow: 0px 0px 10px 1px black;
 
 }
+
 /*---------------------------------------------------- SLIDE 2/6 ----------------------------------------------------*/
 /*---------------------------------------------------- SLIDE 3/6 ----------------------------------------------------*/
 .slide3 {
@@ -441,6 +466,7 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
+
 .slide3 .G2 {
     width: 400px;
     height: 250px;
@@ -454,6 +480,7 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
+
 .slide3 .G3 {
     width: 400px;
     height: 250px;
@@ -467,8 +494,9 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
-.slide3 .CENTER{
-     width: 410px;
+
+.slide3 .CENTER {
+    width: 410px;
     height: 410px;
     background-image: url(../image/photo\ montage\ 2/center.JPG);
     position: absolute;
@@ -481,8 +509,9 @@ span.righph {
     background-color: white;
     transition: 0.3s;
 }
-.slide3 .CENTERBack{
-     width: 450px;
+
+.slide3 .CENTERBack {
+    width: 450px;
     height: 450px;
     position: absolute;
     top: 245px;
@@ -493,13 +522,14 @@ span.righph {
     background-color: rgb(255, 255, 255);
     transition: 0.3s;
 }
-.slide3 .D1{
+
+.slide3 .D1 {
     width: 450px;
     height: 250px;
     background-image: url(../image/photo\ montage\ 2/G1.JPG);
     position: absolute;
     top: 45px;
-    right:500px;
+    right: 500px;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.164);
     background-blend-mode: color;
@@ -508,15 +538,16 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
-.slide3 .D2{
+
+.slide3 .D2 {
     width: 550px;
     height: 285px;
     background-image: url(../image/photo\ montage\ 2/G2.jpeg);
     position: absolute;
     top: 315px;
-    right:500px;
+    right: 500px;
     background-size: cover;
-    background-position-x: -100px ;
+    background-position-x: -100px;
     background-color: rgba(0, 0, 0, 0.288);
     background-blend-mode: color;
     z-index: 3;
@@ -524,19 +555,21 @@ span.righph {
     box-shadow: 0px 0px 10px 1px black;
 
 }
-.slide3 .D3{
+
+.slide3 .D3 {
     width: 400px;
     height: 250px;
     background-image: url(../image/photo\ montage\ 2/G3.JPG);
     position: absolute;
     top: 615px;
-    right:500px;
+    right: 500px;
     background-size: cover;
     z-index: 3;
     transition: 0.3s;
     box-shadow: 0px 0px 10px 1px black;
 
 }
+
 /* image Slide3 */
 
 
@@ -571,6 +604,7 @@ span.righph {
     color: #e7e7e7;
     letter-spacing: 1px;
     font-family: 'League Spartan', sans-serif;
+    margin-top: -8vh;
 }
 
 .slide4 .reseaux,
@@ -650,7 +684,7 @@ span.righph {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     position: relative;
 
 }
@@ -658,7 +692,7 @@ span.righph {
 
 .links a:hover span:nth-child(5) {
     transform: translate(20px, -20px);
-    
+
     border: 1px solid var(--color-bright);
     opacity: 1;
 
@@ -666,7 +700,7 @@ span.righph {
 
 .links a:hover span:nth-child(4) {
     transform: translate(15px, -15px);
-    
+
     border: 1px solid var(--color-bright);
     opacity: .8;
 
@@ -674,20 +708,20 @@ span.righph {
 
 .links a:hover span:nth-child(3) {
     transform: translate(10px, -10px);
-    
+
     border: 1px solid var(--color-bright);
     opacity: .6;
 }
 
 .links a:hover span:nth-child(2) {
     transform: translate(5px, -5px);
-    
+
     border: 1px solid var(--color-bright);
     opacity: .4;
 }
 
 .links a:hover span:nth-child(1) {
-    
+
     border: 1px solid var(--color-bright);
     opacity: .2;
 }
@@ -695,7 +729,7 @@ span.righph {
 .links a.orange-background span {
     background: var(--color-orange);
     border-color: var(--color-bright);
-    
+
     border: 1px solid var(--color-bright);
 }
 
@@ -814,7 +848,7 @@ span.righph {
 /*---------------------------------------------------- SLIDE 5/6 ----------------------------------------------------*/
 .slide5 {
     height: 100vh;
-    background-color: #e7e7e7;
+    background-color: #e7e7e700;
     position: relative;
 
 }
@@ -945,38 +979,203 @@ span.righph {
     border-radius: 100%;
 }
 
+.content-carousel {
+    display: none;
+}
+
+.conteudo {
+    display: none;
+}
+
+/* ----------------------------------------------------CARD AVIS DONE ---------------------------------------------------- */
+.card1 {
+    display: none;
+}
+
+.slide5 {
+    height: 20vh;
+}
+
+/* ----------------------------------------------------CARD AVIS DONE ---------------------------------------------------- */
 /*---------------------------------------------------- SLIDE 6/6 ----------------------------------------------------*/
-@media only screen and (max-width: 1700px) {
-    .slide2 .relative{
+@media only screen and (max-width: 1800px) {
+
+    .slide2 .relative,
+    .slide3 .relative2 {
         display: inline;
     }
-    .photo1{
+
+    .photo1 {
         display: flex;
     }
-    .photo1 .img1 ,.photo1 .img2 , .photo1 .img3, .photo1 .img4 , .photo1 .img5 , .photo1 .img6 , .photo1 .img7 {
-        position:  unset;
-        width: 300px;
-        height: 500px;
-        background-size: cover;
-        background-position-x: 0px;
-        background-position-y: 0px;
-        border-radius: 20px;
-       
-
+    .vidéoEBC video{
+        display: none;
     }
+    .photo1 .img1,
+    .photo1 .img2,
+    .photo1 .img3,
+    .photo1 .img4,
+    .photo1 .img5,
+    .photo1 .img6,
+    .photo1 .img7,
+    .photo2 .img1,
+    .photo2 .img2,
+    .photo2 .img3,
+    .photo2 .img4,
+    .photo2 .img5,
+    .photo2 .img6,
+    .photo2 .img7 {
+        display: none;
+    }
+
     .photo1 {
         scroll-snap-type: x mandatory;
         scroll-padding: 0 24px;
     }
-    .photo1 .item{
+
+    .photo1 .item {
         scroll-snap-align: start;
     }
-    
 
+    .content-carousel {
+        display: flex;
+    }
+
+    .conteudo {
+        display: contents;
+    }
+
+    .slide2,
+    .slide3 {
+        height: 170vh;
+        background-color: #e7e7e7;
+    }
+
+    /* backgroundimage/slide croisé trait bleu */
 }
 
+@media only screen and (max-width: 1350px) {
+    #intro h1 {
+        text-align: center;
+    }
+
+    #contact-info .links {
+        margin-top: 5vh;
+    }
+
+    #contact-info .links a {
+        border: 10px solid white;
+        border-radius: 100%;
+        margin: 5px;
+    }
+
+    #contact-info .links a:hover::after {
+        --transformed-box-diagonal-length: 0%;
+        width: var(--transformed-box-diagonal-length);
+        left: calc((100% - var(--transformed-box-diagonal-length)) / 2);
+    }
+
+    #contact-info .links a:hover div {
+        transform: rotate(0deg) skew(0deg);
+    }
+
+    .links a:hover span:nth-child(5) {
+        transform: translate(30%, 35%);
+
+        border: 1px solid var(--color-bright);
+        border-radius: 100%;
+        width: 98%;
+        height: 98%;
+        opacity: 1;
+
+    }
+
+    .links a:hover span:nth-child(4) {
+        transform: translate(12%, 14%);
+
+        border: 1px solid var(--color-bright);
+        border-radius: 100%;
+        width: 80%;
+        height: 80%;
+        opacity: .8;
+
+    }
+
+    .links a:hover span:nth-child(3) {
+        transform: translate(30%, 35%);
+        border-radius: 100%;
+        width: 60%;
+        height: 60%;
+        border: 2px solid var(--color-bright);
+        opacity: .6;
+    }
+
+    .links a:hover span:nth-child(2) {
+        transform: translate(-10px, -10px);
+        border-radius: 100%;
+        width: 40%;
+        height: 40%;
+        border: 12px solid var(--color-bright);
+        opacity: .4;
+    }
+
+    .links a:hover span:nth-child(1) {
+        border-radius: 100%;
+
+        border: 10px solid var(--color-bright);
+        opacity: .2;
+    }
+
+    #contact-info .links {
+        min-width: 70%;
+    }
+
+    #contact-info .links a div {
+        width: 100px;
+        height: 100px;
+    }
+
+    #contact-info .links a svg {
+        width: 70%;
+
+    }
+    #contact-info .links a:hover svg{
+        fill: rgb(0, 0, 0);
+        transition: 0.2s;
+
+    }
+    .morinfo a h3{
+        color: white;
+        margin-top: 0;
+        font-size: 25px;
+       
+    }
+    .morinfo a{
+        background-color: black;
+        padding: 10px 105px;
+        border-radius: 30px;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .morinfo a:hover h3{
+        color: black;
+    }
+    .morinfo a:hover {
+        
+        border: 2px solid black;
+        background-color: rgba(255, 255, 255, 0);
+    }
+   
+}
 
 @media only screen and (max-width: 1266px) {
+
+    .blue,
+    .text1 h2.\31 {
+        color: #86240e;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
 
     .btn-to-rsrv {
         left: 43%;
@@ -1013,6 +1212,21 @@ span.righph {
     }
 }
 
+@media only screen and (max-width: 573px) {
+    #contact-info .links {
+        display: inline;
+        min-width: 0;
+    }
+
+    .slide4 {
+        height: 100vh;
+    }
+
+    #contact-info .links a {
+        margin-top: 30px;
+    }
+}
+
 @media only screen and (max-width: 473px) {
 
     .btn-to-rsrv {
@@ -1032,4 +1246,66 @@ span.righph {
     .btn-to-rsrv {
         left: 15%;
     }
+
+
 }
+
+/* concept design "nos reseaux" */
+
+/* #contact-info .links a{
+    border: 10px solid white;
+    border-radius: 100%;
+}
+#contact-info .links a:hover::after {
+    --transformed-box-diagonal-length: 0%;
+    width: var(--transformed-box-diagonal-length);
+    left: calc((100% - var(--transformed-box-diagonal-length)) / 2);
+}
+#contact-info .links a:hover div {
+    transform: rotate(0deg) skew(0deg);
+}
+.links a:hover span:nth-child(5) {
+    transform: translate(30%,35%);
+    
+    border: 1px solid var(--color-bright);
+    border-radius: 100%;
+    width: 98%;
+    height: 98%;
+    opacity: 1;
+
+}
+.links a:hover span:nth-child(4) {
+    transform: translate(12%,14%);
+    
+    border: 1px solid var(--color-bright);
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
+    opacity: .8;
+
+}
+
+.links a:hover span:nth-child(3) {
+    transform: translate(30%,35%);
+    border-radius: 100%;
+    width: 60%;
+    height: 60%;
+    border: 2px solid var(--color-bright);
+    opacity: .6;
+}
+
+.links a:hover span:nth-child(2) {
+    transform: translate(0px, 0px);
+    border-radius: 100%;
+    width: 40%;
+    height: 40%;
+    border: 12px solid var(--color-bright);
+    opacity: .4;
+}
+
+.links a:hover span:nth-child(1) {
+    border-radius: 100%;
+
+    border: 10px solid var(--color-bright);
+    opacity: .2;
+} */
