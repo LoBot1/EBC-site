@@ -191,7 +191,7 @@ function Home() {
                     <p className='1'>jeune et surmotivée rendra vos vacances inoubliables.</p>
                     <p className='2'>Avec un STAFF composé de plus de 20 expert dans leur domaine.<br></br><span className='blue'>Vous ne serez pas déçu.</span></p>
                     <p className='3'>Car nous souhaitons que tu sois dans les <span className='blue'>meilleurs <br></br> conditions possible</span>, Nous avons composer une équipe de <br></br> choc :<br></br>
-                        <span className='blue'> Des joueurs et joueuses professionnels</span> ou<span className='blue'> en équipe de <br></br> France</span> mais aussi des coachs et recruteurs en <span className='blue'>centre de <br></br> formation</span> ou au <span className='blue'>pole espoir</span>.</p>
+                        <span className='blue'> Des joueurs et joueuses professionnels</span> ou<span className='blue'> en équipe de <br></br> France</span> mais aussi des coachs en <span className='blue'>centre de <br></br> formation</span> ou au <span className='blue'>pole espoir</span>.</p>
                     <h2 className='1'>Les cartes sont entre tes mains </h2>
                     <p className='4'>De plus pour rendre ta semaine encore plus<br></br><span className='blue'> exceptionnelle</span>. Tu auras peut-être la chance de <br></br> rencontrer notre <span className='blue'>coiffeur</span>, notre  <span className='blue'>photographe</span>, notre <span className='blue'>kiné</span> <br></br> ou</p>
                     <h2 className='2'>bien d'autres encore !</h2>

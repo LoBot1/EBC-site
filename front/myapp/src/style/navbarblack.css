@@ -159,11 +159,15 @@ html body div#root header nav button.nav-btn.nav-close-btn svg {
     
     max-width: 70px;
 }
+a.coach{
+    display: none
+}
 @media only screen and (max-width: 1155px) {
  
     .bag-nav{
-        left: 200px;
-        width: 34%;
+        top: 70px;
+        left: 35px;
+        display: inline;
     }
     header{
         position: relative!important;

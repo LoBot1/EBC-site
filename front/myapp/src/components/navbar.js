@@ -59,7 +59,7 @@ function NavBar(props) {
                             </li>
                         }
                     </ul>
-
+                        
                     <div className="bag-nav">
                         {ReactSession.get("login") && ReactSession.get("login") == 1 ?
                             <ul>

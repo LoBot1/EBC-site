@@ -68,6 +68,7 @@ h1.user-ad {
     font-weight: 900;
     padding: 10px;
     background: #101027;
+    
 }
 
 h1.user-adm {
@@ -77,6 +78,7 @@ h1.user-adm {
     font-weight: 900;
     padding: 10px;
     background: linear-gradient(to bottom left, #5f3b1b, #af5d15);
+    
 }
 
 .info textarea {
@@ -128,6 +130,7 @@ h1.user-adm {
 .coach-contain {
     background: linear-gradient(to bottom left, #1a1a3a, #000000);
     min-height: 100vh;
+    position: initial;
 }
 
 .ad-coach-contain .input-info {
@@ -157,6 +160,7 @@ input#research {
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
     font-size: 12px;
+    z-index: 2;
 }
 
 input#research::placeholder {
@@ -167,6 +171,7 @@ svg.search {
     position: absolute;
     top: 19px;
     right: 3vh;
+    z-index: 3;
 
 }
 

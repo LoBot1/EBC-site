@@ -138,10 +138,20 @@ export function Bag(props) {
                                 <p value="place" className="t1">Stage de {bag.place}</p>
                                 <p value="coach_name" className="t2">{bag.coach_name}</p>
                                 <div className="date">
-                                    <p value="start_date">{bag.start_date}</p>
-                                    <p> / </p>
-                                    <p value="finish_date">{bag.finish_date}</p>
+
+                                    <div className="infobag1">
+                                        <p value="start_date">{bag.start_date}</p>
+                                        <p> / </p>
+                                        <p value="finish_date">{bag.finish_date}</p>
+                                    </div>
+                                    <div className="infobag2">
+                                        <p value="price">Sous-Total : </p>
+                                        <p className="p2">{bag.price} €</p>
+                                    </div>
+
+
                                 </div>
+
                                 <p value="registered_first_name">{bag.registered_first_name}</p>
                                 <p value="registered_last_name">{bag.registered_last_name}</p>
                                 <p value="age">{bag.age}</p>
@@ -169,16 +179,29 @@ export function Bag(props) {
 
 
                         <div className="ptD">
+
                             <h2>Recapitulatif</h2>
                             <h3>Produit : "Stage De Basket"</h3>
                             <div>
-                            <p value="price">Sous-Total : </p> 
-                            <p className="p2">{bag.price} €</p>
+
+                                <p value="price">Sous-Total : </p>
+                                <p className="p2">{bag.price} €</p>
+                                <input id="bagrsrv1" type="button" value="Reserver" onClick={() => {
+                                    if (isOpen == bag.id) {
+                                        setIsOpen(-1);
+                                    }
+                                    else {
+                                        setIsOpen(bag.id);
+                                    }
+                                }
+                                } />
                             </div>
-                            <Collapse in={isOpen == bag.id} >
+                            <Collapse in={isOpen == bag.id} className="lo">
 
                                 <form>
-
+                                    <div className="check-formbag2">
+                                        <input type="button" value="Valider" onClick={() => newUser_resa(bag)} />
+                                    </div>
                                     <div className="form__group field">
 
                                         <div className="flex">
@@ -234,7 +257,7 @@ export function Bag(props) {
         props.setAlerts(21); //toast d'alerte
         props.setShow(true); //toast afficher
         props.setColors(2); //toast vert
-        setTimeout(() => { window.location.replace('/verify_email') }, 1500)    
+        setTimeout(() => { window.location.replace('/verify_email') }, 1500)
     }
 
 

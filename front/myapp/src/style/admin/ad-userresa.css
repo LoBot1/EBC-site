@@ -31,10 +31,31 @@ div.list {
     font-weight: 900;
     border: 1px solid white;
 }
-
+.all-rsrv-list{
+    min-height: 120vh;
+}
 .ad-user-resalist-contain div.info-resa p {
     padding: 10px;
     margin: 0;
     text-transform: uppercase;
     text-align: center;
+}
+@media only screen and (max-width: 960px){
+ div.list{
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+ }   
+ .all-rsrv-list{
+    margin-left: 0;
+
+ }
+}
+@media only screen and (max-width: 960px){
+    div.list{
+        margin-left: 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        min-height: 75vh;
+     }   
 }

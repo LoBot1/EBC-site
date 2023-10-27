@@ -11,7 +11,13 @@
 
 
 
-
+html body div#root header div.Naazvbar nav.responsive_nav{
+    background-color: black;
+    background-image: none;
+}
+.Naazvbar button.nav-btn.nav-close-btn{
+    background-color: white;
+}
 .btn-menuad a.btn-4:hover{
     color: white!important;
 }
@@ -67,5 +73,6 @@ a.btn-4{
     }
     input#research{
         top: 8vh;
+        z-index: 0;
     }
 }
