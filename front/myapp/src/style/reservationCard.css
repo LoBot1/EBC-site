@@ -121,7 +121,9 @@
     display: flex;
     flex-direction: column;
 }
-
+ .all-rsrv .card-all.PTD{
+        margin-left: 195px;
+    }
 @media only screen and (max-width: 1266px) {
     .card-all {
         grid-template-columns: repeat(2, 1fr);
@@ -143,4 +145,23 @@
     .rsrv-content a:hover {
         border-bottom: 1px solid white;
     }
+}
+@media only screen and (max-width: 585px){
+    .all-rsrv .card-all.PTD{
+        margin-left: 195px;
+    }
+}
+@media only screen and (max-width: 445px){
+    .all-rsrv .card-all.PTD{
+        margin-top: 08px;
+    }
+}
+@media only screen and (max-width: 490px){
+    .card .inputCardinfo{
+        width: 83%;
+    }
+    .card div img{
+        width: 83%;
+    }
+
 }
