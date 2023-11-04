@@ -24,6 +24,25 @@ import SliderMain2 from '../components/slidermain2';
 <script src="https://kit.fontawesome.com/bc8591f4e3.js" crossorigin="anonymous"></script>
 
 function Home() {
+
+    ReactSession.set("id", -2);
+    if (ReactSession.get("id") == -2) {
+        ReactSession.set("id", -1);
+        ReactSession.set("first_name", "");
+        ReactSession.set("last_name", "");
+        ReactSession.set("email", "");
+        ReactSession.set("password", "");
+        ReactSession.set("phone_number", "");
+        ReactSession.set("city", "");
+        ReactSession.set("postal_code", "");
+        ReactSession.set("adress", "");
+        ReactSession.set("appartment", "");
+        ReactSession.set("coach", "");
+        ReactSession.set("admin", 0);
+        ReactSession.set("reservation", 0);
+        ReactSession.set("login", 0);
+    }
+
     return <div className="-contain">
         <NavBarBlack />
         <div className='home2'>
